@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ShoppingCart, User, Menu, X, Globe, ChevronDown, Sparkles, ChevronRight, LayoutDashboard, Store, ShieldCheck, MapPin } from 'lucide-react';
+import { ShoppingCart, User, Menu, X, Globe, ChevronDown, Sparkles, ChevronRight, LayoutDashboard, Store, ShieldCheck } from 'lucide-react';
 import { useStore } from '../../store/useStore';
 import { culturalTerms } from '../../lib/data';
 import { Button } from '@/components/ui/button';

@@ -16,7 +16,7 @@ export const OrderConfirmation = () => {
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Ameseginalehu!</h1>
           <p className="text-xl text-gray-600 mb-8">Your order has been successfully placed.</p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button onClick={() => navigate('/products')} className="flex-1 py-4 bg-[#8B4513] text-white rounded-xl font-bold flex items-center justify-center hover:bg-[#6F3710] transition shadow-lg group">
+            <button onClick={() => navigate('/explore')} className="flex-1 py-4 bg-[#8B4513] text-white rounded-xl font-bold flex items-center justify-center hover:bg-[#6F3710] transition shadow-lg group">
               <ShoppingBag className="w-5 h-5 mr-2" />
               Continue Shopping
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
