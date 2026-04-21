@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { 
   Star, 
@@ -15,7 +15,7 @@ import {
   ArrowUpRight
 } from 'lucide-react';
 import { useStore } from '../../store/useStore';
-import { products, artisans, culturalTerms, Product } from '../../lib/data';
+import { products, artisans, culturalTerms } from '../../lib/data';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
 import { motion, AnimatePresence } from 'framer-motion';

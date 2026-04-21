@@ -1,6 +1,4 @@
 import React from 'react';
-import { products } from '../../lib/data';
-import { useStore } from '../../store/useStore';
 import { Package, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
